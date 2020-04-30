@@ -7,9 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Black Code Formatter
-        uses: wrboyce/python-lint-action@master
+      # - name: Black Code Formatter
+      #   uses: wrboyce/python-lint-action@master
       - name: Black Code Checker
         uses: lgeiger/black-action@master
         with:
-          args: ". --check"
+          args: ". "
