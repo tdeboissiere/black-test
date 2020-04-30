@@ -10,6 +10,6 @@ jobs:
       # - name: Black Code Formatter
       #   uses: wrboyce/python-lint-action@master
       - name: Black Code Checker
-        uses: lgeiger/black-action@master
+        uses: tdeboissiere/python-format-action@master
         with:
           args: ". "
